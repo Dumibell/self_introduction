@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+
+
+.container {
+  width:100vmax;
+  height:100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+
+.now {
+ color: white;
+ opacity: 1;
+ text-shadow: 0.7px 0.7px 0.7px #000;
+}
+.rest {
+  color: white;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+
+.img {
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+}
+
+.border1 {
+  /*position: fixed;*/
+  border: 0;
+  background-color: #2B3856;
+  /*margin-top:auto;*/
+  margin-bottom: auto;
+  width: 280px;
+  height: 100vh;
+
+}
+.border2 {
+  text-align: center;
+  /*align-items: center;*/
+  /*margin-top:auto;
+  margin-bottom: auto;*/
+}
+
+#mimoticon {
+width: 150px;
+height: 150px;
+border: 1px solid #2B3856;
+border-radius: 70%
+}
+
+.body {
+  margin-left: 60px;
+  margin-top: auto;
+  margin-bottom:auto;
+}
+
+/* ABOUT */
+
+
+/* EXPERIENCE */
+
+
+
+/*Education*/
+
+
+/*Interests*/

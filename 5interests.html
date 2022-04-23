@@ -2,66 +2,59 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <!-- CSS 파일 연결 -->
     <link rel="stylesheet" href="style_introduction.css">
+    <!-- 폰트 연결-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&family=Oswald:wght@500&family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <style>
-    .body5 {
-
-    }
-    .whatilove {
-      font-size: 55px;
-      font-weight: 700;
-      font-family: 'Oswald', sans-serif;
-    }
-
-    .smallbox {
-      width:150px;
-      height: 150px;
-    }
-    p {
-      margin:10px;
-    }
-    </style>
-    <title></title>
+    <title>Interests</title>
   </head>
+
+
   <body>
+    <header>
+    </header>
     <div class = "container">
-      <div class = "border1">
-        <div class = "border2">
+      <!-- 메뉴바 -->
+      <nav class="menu-bar">
+        <div class = "index">
+      <!-- 프로필 이미지 -->
           <div class = "img">
-              <img id="mimoticon" src ="images/mimoticon.jpeg">
+            <img id="porfile-img" src ="images/mimoticon.jpeg">
           </div>
         <br>
-
-          <h3><a class="rest" href="index.html">ABOUT</a></h3>
-          <h3><a class="rest" href="2experience.html">EXPERIENCE</a></h3>
-          <h3><a class="rest" href="3education.html">EDUCATION</a></h3>
-          <h3><a class="rest" href="4skills.html">SKILLS</a></h3>
-          <h3><a href="5interests.html" class="now">INTERESTS</a></h3>
+        <!-- 목차 -->
+          <h3><a href="index.html">ABOUT</h3>
+          <h3><a href="2experience.html">EXPERIENCE</h3>
+          <h3><a href="3education.html">EDUCATION</a></h3>
+          <h3><a href="5interests.html">INTERESTS</a></h3>
         </div>
-      </div>
+      </nav>
 
-      <div class = "body">
-        <p class="whatilove"><span>WHAT</span>&nbsp<span style="color: #2B3856;">I LOVE</span><p>
-
-
-            <img class="smallbox" src="images/dumi1.jpg">
-            <img class="smallbox" src="images/knitting.JPG">
-            <img class="smallbox" src="images/dumibell.JPG">
-            <img class="smallbox" src="images/bike.jpeg">
-            <img class="smallbox" src="images/bell1.jpg">
-            <img class="smallbox" src="images/dumi2.jpg">
-            <img class="smallbox" src="images/piano.jpeg">
-            <img class="smallbox" src="images/passport.jpg">
-            <img class="smallbox" src="images/thread.JPG">
-            <img class="smallbox" src="images/bell2.jpg">
-
-
-
-
-
-      </div>
+      <section class="interests">
+        <header>
+        <!-- 제목 -->
+        <p style="margin: 10px;" class="whatilove-text"><span>WHAT</span>&nbsp<span style="color: #2B3856;">I LOVE</span><p>
+        </header>
+        <article>
+          <!-- 이미지 -->
+          <div class="whatilove-img">
+            <img src="images/dumi1.jpg">
+            <img src="images/knitting.JPG">
+            <img src="images/dumibell.JPG">
+            <img src="images/bike.jpeg">
+            <img src="images/bell1.jpg">
+            <img src="images/dumi2.jpg">
+            <img src="images/piano.jpeg">
+            <img src="images/passport.jpg">
+            <img src="images/thread.JPG">
+            <img src="images/bell2.jpg">
+          </div>
+          <!-- 코멘트 -->
+          <p class="comment">Things that make me happy✨<br>
+          :knitting, bicycle riding on sunny days, playing the piano, traveling with no plans, and my only Dumi&Bell</p>
+        </article>
+      </section>
     </div>
