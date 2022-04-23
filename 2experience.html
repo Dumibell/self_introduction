@@ -9,18 +9,54 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&family=Oswald:wght@500&family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap" rel="stylesheet">
     <style>
 
+    .body2 {
+      margin-top: auto;
+      margin-bottom:auto;
+    }
+    .body2_2 {
+      width:700px;
+      margin-left: 120px;
+      margin-top: 30px;
+    }
+    .alpen {
+      width: 150px;
+    }
+
+    .photo {
+      margin-right: 7px;
+      margin-top:10px;
+      border: 5px;
+      border-style: solid;
+      border-color: lightgray;
+      border-image-outset: 10px;
+      width: 120px;
+      height: 150px;
+    }
+
+    .title1 {
+      font-size: 55px;
+      font-weight: 700;
+      font-family: 'Oswald', sans-serif;
+    }
+    p {
+      margin:0
+    }
+    .year {
+      font-family: 'Oswald', sans-serif;
+      font-size: 17px;
+      opacity: 0.5;
+    }
     </style>
     <title></title>
   </head>
   <body>
     <div class = "container">
-    <div class = "border1">
-      <div class = "border2">
-        <div class = "img">
-          <div class="profile-img">
-            <img src ="mimoticon.jpeg" alt="profile-img" class="profile-img">
+      <div class = "border1">
+        <div class = "border2">
+          <div class = "img">
+              <img id="mimoticon" src ="images/mimoticon.jpeg">
           </div>
-        </div>
+
         <br>
 
           <h3><a class="rest" href="index.html">ABOUT</a></h3>
@@ -30,15 +66,35 @@
           <h3><a class="rest" href="5interests.html">INTERESTS</a></h3>
 
 
+        </div>
       </div>
-    </div>
-
-    <div class="body1">
-
-    </div>
 
 
 
-    </div>
+      <div class="body">
+        <div class="body2_1">
+          <p class="title1"><span>Hilton</span>&nbsp<span style="color: #2B3856;">Garden Inn</span>&nbsp<span class="year">~2021.12</span></p>
+          <img class="photo" src="images/working.jpg">
+          <img class="photo" src="images/IMG_6066.jpg">
+          <img class="photo" src="images/IMG_9982.jpg">
+          <img class="photo" src="images/IMG_3666.jpg">
+        </div>
+        <div class="body2_2">
+          <div class="right">
+          <p class="title1"><span>Alpensia</span>&nbsp<span style="color: #2B3856;">Pyeongchang</span>&nbsp<span class="year">~2020.11</p>
+            <img class="alpen" src="images/alpen.JPG">
+            <img class="photo" src="images/IMG_9565.jpg">
+            <img class="photo" src="images/sheep.jpeg">
+            <img class="photo" src="images/IMG_9869.jpg">
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+  </div>
   </body>
 </html>
