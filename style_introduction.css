@@ -86,10 +86,10 @@ p {
   color: black;
   opacity: 0.4
 }
-/* sns 픽토그램 - 반응형 커서 */
 .sns-pictogram i {
   margin-right: 40px;
 }
+/*픽토그램 반응형 커서*/
 footer i:hover {
   transform: translate(0, -3px);
 }
@@ -109,12 +109,16 @@ footer i:hover {
   transition: all 0.3s ease-in-out;
 }
 /* 커서 올릴 시 이미지 크게(모든 이미지 파일에 적용) */
+img {
+  transition: all .2s ease-in-out;
+}
 img:hover {
   transform: scale(1.7);
   -webkit-transform: scale(1.7); /* 크롬 */
   -moz-transform: scale(1.7); /* 파이어폭스 */
   -o-transform: scale(1.7); /* 오페라 */
   z-index: 1;
+  align-items: center;
 }
 .experience p{
   font-size: 55px;
@@ -169,5 +173,4 @@ img:hover {
 .interests .comment {
   font-size: 16px;
   font-style: italic;
-  opacity: 0.8;
 }
