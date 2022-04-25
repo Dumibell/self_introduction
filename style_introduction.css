@@ -112,9 +112,6 @@ footer i:hover {
   transition: all 0.3s ease-in-out;
 }
 /* 커서 올릴 시 이미지 크게(모든 이미지 파일에 적용) */
-img {
-  transition: all .0.5s ease-in-out;
-}
 img:hover {
   transform: scale(1.7);
   -webkit-transform: scale(1.7); /* 크롬 */
@@ -129,8 +126,11 @@ img:hover {
   font-family: 'Oswald', sans-serif;
 }
 /* for layout */
+.contents1 {
+  width: 700px;
+}
 .contents2 {
-  width:700px;
+  width: 700px;
   margin-left: 120px;
   margin-top: 30px;
 }
@@ -169,7 +169,6 @@ img:hover {
 .whatilove-img img {
   width:150px;
   height: 150px;
-
   transition: all 0.3s ease-in-out;
 }
 /* 하단 코멘트 */
